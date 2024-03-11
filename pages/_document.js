@@ -41,12 +41,12 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
           <link
-            href="/flag-dark.png"
+            href="/favicon.png"
             rel="icon"
             media="(prefers-color-scheme: light)"
           />
           <link
-            href="/flag-light.png"
+            href="/favicon.png"
             rel="icon"
             media="(prefers-color-scheme: dark)"
           />

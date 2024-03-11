@@ -4,8 +4,8 @@
   "description": "Monaco is an open-source live-timing dashboard for Formula 1 events.",
   "icons": [
     {
-      "src": "/icon.png",
-      "sizes": "200x200",
+      "src": "/favicon.png",
+      "sizes": "128x128",
       "type": "image/png"
     }
   ],
