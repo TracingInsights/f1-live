@@ -34,7 +34,7 @@ const SpeedTrap = ({ racingNumber, driver, line, statsLine }) => {
               color: line.Speeds.I1.OverallFastest
                 ? "magenta"
                 : line.Speeds.I1.PersonalFastest
-                ? "limegreen"
+                ? "#00ff00"
                 : "var(--colour-fg)",
             }}
           >
@@ -54,7 +54,7 @@ const SpeedTrap = ({ racingNumber, driver, line, statsLine }) => {
               color: line.Speeds.I2.OverallFastest
                 ? "magenta"
                 : line.Speeds.I2.PersonalFastest
-                ? "limegreen"
+                ? "#00ff00"
                 : "var(--colour-fg)",
             }}
           >
@@ -74,7 +74,7 @@ const SpeedTrap = ({ racingNumber, driver, line, statsLine }) => {
               color: line.Speeds.FL.OverallFastest
                 ? "magenta"
                 : line.Speeds.FL.PersonalFastest
-                ? "limegreen"
+                ? "#00ff00"
                 : "var(--colour-fg)",
             }}
           >
@@ -94,7 +94,7 @@ const SpeedTrap = ({ racingNumber, driver, line, statsLine }) => {
               color: line.Speeds.ST.OverallFastest
                 ? "magenta"
                 : line.Speeds.ST.PersonalFastest
-                ? "limegreen"
+                ? "#00ff00"
                 : "var(--colour-fg)",
             }}
           >

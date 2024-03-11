@@ -9,12 +9,12 @@ const GlobalStyle = createGlobalStyle`
     --space-4: 16px;
     --space-5: 32px;
     --space-6: 64px;
-    
-    --colour-bg: #000;
+
+    --colour-bg: #011627;
     --colour-fg: #f0f0f0;
     --colour-border: #555;
-    --colour-offset: #222;
-    
+    --colour-offset: #002451;
+
     --fontSize-small: 10px;
     --fontSize-body: 12px;
     --fontFamily-body: 'JetBrains Mono', monospace;
@@ -32,7 +32,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: var(--fontFamily-body);
     font-size: var(--fontSize-small);
     -webkit-text-size-adjust: 100%;
-    
+
     @media screen and (min-width: 900px) {
       font-size: var(--fontSize-body);
     }

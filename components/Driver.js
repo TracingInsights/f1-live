@@ -9,7 +9,7 @@ const getSegmentColour = (status) => {
     case 2048:
       return "yellow";
     case 2049:
-      return "limegreen";
+      return "#00ff00";
     case 2051:
       return "magenta";
     case 2064:
@@ -104,7 +104,7 @@ export const TableHeader = () => (
 );
 
 const getPosChangeColour = (pos, gridPos) => {
-  if (pos < gridPos) return "limegreen";
+  if (pos < gridPos) return "#00ff00";
   if (pos > gridPos) return "red";
   return "grey";
 };
@@ -236,7 +236,7 @@ const Driver = ({
               style={{
                 width: `${throttlePercent}%`,
                 height: "4px",
-                backgroundColor: "limegreen",
+                backgroundColor: "#00ff00",
               }}
             />
           </ProgressBar>
@@ -256,7 +256,7 @@ const Driver = ({
           }`}
           style={{
             color: drsEnabledValues.includes(carData["45"])
-              ? "limegreen"
+              ? "#00ff00"
               : "grey",
           }}
         >
@@ -272,7 +272,7 @@ const Driver = ({
                     ? "magenta"
                     : line.LastLapTime?.Value &&
                       line.LastLapTime?.PersonalFastest
-                    ? "limegreen"
+                    ? "#00ff00"
                     : "var(--colour-fg)",
               }}
             >
@@ -307,7 +307,7 @@ const Driver = ({
             <span
               style={{
                 color: line.IntervalToPositionAhead?.Catching
-                  ? "limegreen"
+                  ? "#00ff00"
                   : "var(--colour-fg)",
               }}
             >
@@ -386,7 +386,7 @@ const Driver = ({
                       color: sector.OverallFastest
                         ? "magenta"
                         : sector.PersonalFastest
-                        ? "limegreen"
+                        ? "#00ff00"
                         : "yellow",
                       marginTop: "var(--space-2)",
                       display: "inline-block",
