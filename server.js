@@ -13,7 +13,7 @@ const handle = app.getRequestHandler();
 const signalrUrl = "livetiming.formula1.com/signalr";
 const signalrHub = "Streaming";
 
-const socketFreq = 1000;
+const socketFreq = 250;
 const retryFreq = 10000;
 
 let state = {};
@@ -211,7 +211,7 @@ app.prepare().then(async () => {
   });
 
   server.listen(port, () => {
-    console.log(`Monaco server ready on http://${hostname}:${port}`);
+    console.log(`f1dash server ready on http://${hostname}:${port}`);
   });
 
   // Assume we have an active session after 5 messages

@@ -10,5 +10,5 @@ services:
       - "127.0.0.1:5100:3000"
       - "127.0.0.1:5101:3001"
     environment:
-      - NEXT_PUBLIC_WS_URL=https://tracinginsights.github.io/f1-live
+      - NEXT_PUBLIC_WS_URL=https://tracinginsights.github.io
     restart: unless-stopped
