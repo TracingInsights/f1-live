@@ -1,7 +1,7 @@
 version: "3"
 services:
-  f1dash:
-    container_name: "f1dash"
+  f1-live:
+    container_name: "f1-live"
     network_mode: "bridge"
     build:
       dockerfile: Dockerfile

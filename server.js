@@ -211,7 +211,7 @@ app.prepare().then(async () => {
   });
 
   server.listen(port, () => {
-    console.log(`f1dash server ready on http://${hostname}:${port}`);
+    console.log(`f1-live server ready on http://${hostname}:${port}`);
   });
 
   // Assume we have an active session after 5 messages
